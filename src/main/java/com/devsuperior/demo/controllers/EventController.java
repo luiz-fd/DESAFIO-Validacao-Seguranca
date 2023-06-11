@@ -1,4 +1,4 @@
-package com.devsuperior.demo.resources;
+package com.devsuperior.demo.controllers;
 
 import java.net.URI;
 
@@ -21,7 +21,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping(value = "/events")
-public class EventResource {
+public class EventController {
 	
 	@Autowired
 	private EventService eventService;

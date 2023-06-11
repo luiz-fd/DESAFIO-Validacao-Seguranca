@@ -1,4 +1,4 @@
-package com.devsuperior.demo.resources;
+package com.devsuperior.demo.controllers;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import com.devsuperior.demo.services.CityService;
 
 @RestController
 @RequestMapping(value = "/cities")
-public class CityResource {
+public class CityController {
 	
 	@Autowired
 	private CityService cityService;
